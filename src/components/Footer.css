@@ -1,0 +1,14 @@
+.footer {
+  background-color: #161619;
+  text-align: center;
+  padding: 1.25rem;
+  border-bottom-right-radius: 1.063rem;
+  border-bottom-left-radius: 1.063rem;
+  margin-top: 1.063rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer > img {
+  width: 1.563rem;
+}
