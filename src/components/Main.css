@@ -1,0 +1,8 @@
+.main {
+  width: 15.438rem;
+  height: 12.625rem;
+  margin: auto;
+}
+.main > p {
+  font-size: 0.64rem;
+}
