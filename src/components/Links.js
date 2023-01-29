@@ -1,9 +1,7 @@
 import "./Links.css";
+import { FaEnvelope, FaLinkedin } from "react-icons/fa";
 
 function Links() {
-  const emailButton = require("../assets/email-button.png");
-  const linkedInButton = require("../assets/linkedin-button.png");
-
   return (
     <div className="links">
       <h2>Joshua Edo</h2>
@@ -11,14 +9,16 @@ function Links() {
       <p className="website">joshuaedo.com</p>
       <div className="buttons">
         <a href="mailto:joshua.edo01@gmail.com">
-          <img className="email-button" src={emailButton} alt="email button" />
+          <button className="email-button contact-button">
+            <FaEnvelope />
+            Email
+          </button>
         </a>
         <a href="https://www.linkedin.com/in/joshuaedo">
-          <img
-            className="linkedin-button"
-            src={linkedInButton}
-            alt="linkedIn button"
-          />
+          <button className="linkedin-button contact-button">
+            <FaLinkedin />
+            Linkedin
+          </button>
         </a>
       </div>
     </div>
