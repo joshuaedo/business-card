@@ -8,14 +8,23 @@ function Footer() {
 
   return (
     <div className="footer">
-      <img className="twitter-icon" src={twitterIcon} alt="twitter-icon" />
-      <img className="facebook-icon" src={facebookIcon} alt="facebook-icon" />
-      <img
-        className="instagram-icon"
-        src={instagramIcon}
-        alt="instagram-icon"
-      />
-      <img className="github-icon" src={githubIcon} alt="github-icon" />
+      <a href="https://www.twitter.com/Thegr8joshua">
+        <img className="twitter-icon" src={twitterIcon} alt="twitter-icon" />
+      </a>
+      <a href="https://www.facebook.com/joshua.edo.587">
+        {" "}
+        <img className="facebook-icon" src={facebookIcon} alt="facebook-icon" />
+      </a>
+      <a href="https://www.instagram.com/edo_joshua">
+        <img
+          className="instagram-icon"
+          src={instagramIcon}
+          alt="instagram-icon"
+        />
+      </a>
+      <a href=" https://www.github.com/joshuaedo">
+        <img className="github-icon" src={githubIcon} alt="github-icon" />
+      </a>
     </div>
   );
 }

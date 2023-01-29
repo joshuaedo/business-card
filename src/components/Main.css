@@ -1,8 +1,22 @@
 .main {
   width: 15.438rem;
   height: 12.625rem;
-  margin: auto;
+  margin: 2rem auto 1.43rem auto;
 }
+
+.main > h3 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 150%;
+  margin-bottom: 0.188rem;
+}
+
 .main > p {
+  margin: 0;
+  font-weight: 400;
   font-size: 0.64rem;
+  line-height: 150%;
+  color: #dcdcdc;
+  margin-bottom: 1.625rem;
 }

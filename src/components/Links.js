@@ -7,14 +7,20 @@ function Links() {
   return (
     <div className="links">
       <h2>Joshua Edo</h2>
-      <p>Frontend Developer</p>
-      <p>joshuaedo.com</p>
-      <img className="email-button" src={emailButton} alt="email button" />
-      <img
-        className="linkedin-button"
-        src={linkedInButton}
-        alt="linkdein button"
-      />
+      <p className="title">Frontend Developer</p>
+      <p className="website">joshuaedo.com</p>
+      <div className="buttons">
+        <a href="mailto:joshua.edo01@gmail.com">
+          <img className="email-button" src={emailButton} alt="email button" />
+        </a>
+        <a href="https://www.linkedin.com/in/joshuaedo">
+          <img
+            className="linkedin-button"
+            src={linkedInButton}
+            alt="linkedIn button"
+          />
+        </a>
+      </div>
     </div>
   );
 }
